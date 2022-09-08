@@ -1,0 +1,31 @@
+.footer {
+    background-color: $backColor;
+
+    .footerUlist {
+        @extend %footerUl;
+
+        li {
+
+
+            img {
+                @extend %footerImg;
+
+                &:hover {
+                    -webkit-transition: 1s linear;
+                    transition: 1s linear;
+                    -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+                }
+
+            }
+
+            a {
+                @extend %footerParrafo;
+            }
+        }
+    }
+
+    p {
+        @extend %footerParrafo;
+    }
+}

@@ -1,0 +1,8 @@
+h1{
+    @extend %headerStyle;
+    @include h1Style;
+    &:hover{
+        color: #7F055F;
+        transition: .3s;   
+    }
+}

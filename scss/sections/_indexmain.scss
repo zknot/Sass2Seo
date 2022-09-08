@@ -1,0 +1,28 @@
+h1{
+    @extend %gralStyle;
+    @include h1Style;
+    &:hover{
+        color: #7F055F;
+        transition: .3s;   
+    }
+}
+
+.main-index{
+    .card{
+        background-color: $seconColor;
+        padding: 1rem;
+        margin: 2rem;
+        .row{
+            gap: 10px 10px;
+            margin: 15px;    
+    img{
+        @extend %imgSize;
+        }
+    } 
+    .card-text{
+        @extend %gralStyle;
+        margin: 10px;
+        color: $fontColor;
+    }    
+    }
+}

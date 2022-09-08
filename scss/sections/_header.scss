@@ -1,0 +1,18 @@
+.header{
+    @extend %headerStyle;
+    background-color: $backColor;
+    .logoPrincipal{
+        @extend %logoStyle;
+        background-color: $backColor;
+            }
+    .navbar{
+        background-color: $backColor;
+        .navbar-nav a{
+            @include fontStyle;
+                &:hover{
+                color: $seconColor;
+                font-weight: bold;
+            }
+        }
+    }
+}

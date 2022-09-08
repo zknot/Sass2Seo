@@ -1,0 +1,68 @@
+@media (max-width: 850px) {
+    .header {
+      flex-direction: row; }
+    .header img {
+      width: 200px; }
+    h1 {
+      width: 100%; }
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 10px; }
+    .main-nosotros img {
+      width: 400px; } }
+  
+  @media (max-width: 680px) {
+    .header {
+      flex-direction: column; } }
+  
+  @media (max-width: 680px) {
+    .header {
+      flex-direction: column; }
+    .header img {
+      width: 150px; }
+    h1 {
+      width: 100%; }
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 10px; }
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 10px; }
+    .main {
+      flex-direction: column; }
+    .main-nosotros img {
+      width: 250px; }
+    .ubicacionMapa iframe {
+      width: 400px; }
+    .ubicacionMapa iframe {
+      width: 400px; }
+    .footer ul {
+      width: 182px; } }
+  
+  @media (max-width: 320px) {
+    .header {
+      flex-direction: column; }
+    .header img {
+      width: 150px; }
+    h1 {
+      width: 100%; }
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 10px; }
+    .main {
+      flex-direction: column; }
+    .ubicacionMapa iframe {
+      width: 400px; }
+    .footer ul {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 10px; }
+    .main {
+      flex-direction: column; }
+    .ubicacionMapa iframe {
+      width: 400px; }
+    .footer ul {
+      width: 182px; }
+    .vestidosIndex img {
+      width: 250px; } }
+  

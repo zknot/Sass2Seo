@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&family=PT+Sans:wght@400;700&display=swap');
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'PT Sans', sans-serif;*/
+
+/* 45062E - 7F055F - E5A4CB - EBD2BE - FFE8D4 - */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@import './variables/colors';
+@import './variables/typo';
+@import './variables/extend';
+@import './variables/mixin';
+
+
+@import './sections/header';
+@import './sections/indexmain';
+@import './sections/generalmain';
+@import './sections/main';
+@import './sections/footer';
+@import './sections/queries';

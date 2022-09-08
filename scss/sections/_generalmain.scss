@@ -1,0 +1,49 @@
+.main-index, .main-nosotros, .main-contacto, .main-modelos, .main-faq {
+    @extend %gralStyle;
+    @include mainBack;
+    
+        h1{
+            color: #7F055F;
+            -webkit-transition: 1s linear;
+            transition: 1s linear;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            }  
+            h2{
+                @extend %footerParrafo;
+                @include fontStyle;
+                }      
+        }
+
+/* Nosotros Body*/
+
+.main-nosotros{
+    h2{
+        color: $backColor;
+    }
+    .card{
+        background-color: $seconColor;
+        padding: 1rem;
+        margin: 2rem;
+        .row{
+            gap: 10px 10px;
+            margin: 15px;    
+    img{
+        @extend %imgSize;
+        }
+    } 
+    .card-text{
+        @extend %gralStyle;
+        margin: 10px;
+        color: $fontColor;
+    }    
+    }
+}
+
+/* Body FAQ */
+
+.main-faq{
+    p{
+        @extend %faqParrafo;
+    }
+}

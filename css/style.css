@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&family=PT+Sans:wght@400;700&display=swap");
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'PT Sans', sans-serif;*/
+/* 45062E - 7F055F - E5A4CB - EBD2BE - FFE8D4 - */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&family=PT+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header, h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header .logoPrincipal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; }
+
+h1, .main-index .card .card-text, .main-index, .main-nosotros, .main-contacto, .main-modelos, .main-faq, .main-nosotros .card .card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main-index .card .row img, .main-nosotros .card .row img {
+  width: 400px;
+  margin: 10px; }
+
+.footer .footerUlist li img {
+  display: flex;
+  margin: 20px;
+  width: 40px;
+  justify-content: center; }
+
+.footer .footerUlist {
+  display: flex;
+  list-style: none;
+  width: 450px;
+  margin: 0 auto;
+  justify-content: center; }
+
+.main-index h2, .main-nosotros h2, .main-contacto h2, .main-modelos h2, .main-faq h2, .footer .footerUlist li a, .footer p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'nunito';
+  color: #FFE8D4;
+  padding-bottom: 15px;
+  text-align: center;
+  margin: 10px 10px 0px 10px;
+  text-decoration: none; }
+
+.main-faq p {
+  font-family: 'Nunito';
+  text-align: left;
+  margin-left: 0.5rem;
+  color: #7F055F; }
+
+.header {
+  background-color: #7F055F; }
+  .header .logoPrincipal {
+    background-color: #7F055F; }
+  .header .navbar {
+    background-color: #7F055F; }
+    .header .navbar .navbar-nav a {
+      color: #FFE8D4;
+      text-decoration: none;
+      font-family: "Nunito", sans-serif; }
+      .header .navbar .navbar-nav a:hover {
+        color: #E5A4CB;
+        font-weight: bold; }
+
+h1 {
+  font-family: 'Nunito';
+  background-color: #E5A4CB;
+  width: 100%;
+  color: white;
+  text-decoration: none; }
+  h1:hover {
+    color: #7F055F;
+    transition: .3s; }
+
+.main-index .card {
+  background-color: #E5A4CB;
+  padding: 1rem;
+  margin: 2rem; }
+  .main-index .card .row {
+    gap: 10px 10px;
+    margin: 15px; }
+  .main-index .card .card-text {
+    margin: 10px;
+    color: #FFE8D4; }
+
+.main-index, .main-nosotros, .main-contacto, .main-modelos, .main-faq {
+  background-image: url(../assets/img/mimilusfondobody.png);
+  background-repeat: 0;
+  background-position: center; }
+  .main-index h1, .main-nosotros h1, .main-contacto h1, .main-modelos h1, .main-faq h1 {
+    color: #7F055F;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  .main-index h2, .main-nosotros h2, .main-contacto h2, .main-modelos h2, .main-faq h2 {
+    color: #FFE8D4;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif; }
+
+/* Nosotros Body*/
+.main-nosotros h2 {
+  color: #7F055F; }
+
+.main-nosotros .card {
+  background-color: #E5A4CB;
+  padding: 1rem;
+  margin: 2rem; }
+  .main-nosotros .card .row {
+    gap: 10px 10px;
+    margin: 15px; }
+  .main-nosotros .card .card-text {
+    margin: 10px;
+    color: #FFE8D4; }
+
+/* Body FAQ */
+h1 {
+  font-family: 'Nunito';
+  background-color: #E5A4CB;
+  width: 100%;
+  color: white;
+  text-decoration: none; }
+  h1:hover {
+    color: #7F055F;
+    transition: .3s; }
+
+.footer {
+  background-color: #7F055F; }
+  .footer .footerUlist li img:hover {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+
+@media (max-width: 850px) {
+  .header {
+    flex-direction: row; }
+  .header img {
+    width: 200px; }
+  h1 {
+    width: 100%; }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px; }
+  .main-nosotros img {
+    width: 400px; } }
+
+@media (max-width: 680px) {
+  .header {
+    flex-direction: column; } }
+
+@media (max-width: 680px) {
+  .header {
+    flex-direction: column; }
+  .header img {
+    width: 150px; }
+  h1 {
+    width: 100%; }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px; }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px; }
+  .main {
+    flex-direction: column; }
+  .main-nosotros img {
+    width: 250px; }
+  .ubicacionMapa iframe {
+    width: 400px; }
+  .ubicacionMapa iframe {
+    width: 400px; }
+  .footer ul {
+    width: 182px; } }
+
+@media (max-width: 320px) {
+  .header {
+    flex-direction: column; }
+  .header img {
+    width: 150px; }
+  h1 {
+    width: 100%; }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px; }
+  .main {
+    flex-direction: column; }
+  .ubicacionMapa iframe {
+    width: 400px; }
+  .footer ul {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px; }
+  .main {
+    flex-direction: column; }
+  .ubicacionMapa iframe {
+    width: 400px; }
+  .footer ul {
+    width: 182px; }
+  .vestidosIndex img {
+    width: 250px; } }

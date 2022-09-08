@@ -1,0 +1,5 @@
+1- Se agregaron los titulos correspondientes a cada .html
+2- Se colocaron las etiquetas meta keywords en index.html:
+mimilus, ropa, venta, bebes, conjuntos.
+3- Se agrego la etiqueta meta description en index.html:
+Mimilus es un emprendimiento familiar de ropa para bebes y niños.
