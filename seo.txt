@@ -3,3 +3,19 @@
 mimilus, ropa, venta, bebes, conjuntos.
 3- Se agrego la etiqueta meta description en index.html:
 Mimilus es un emprendimiento familiar de ropa para bebes y niños.
+4- Se agrego etiqueta meta keywords en nosotros.html:
+historia, dedicacion, costura, detalles, niños.
+5- Se agrego etiqueta meta description en nosotros.html:
+Un poco de nuestra historia y nuestros comienzos
+6- Se colocaron las etiquetas meta keywords en modelos.html:
+conjuntos, enteritos, modelos, invierno, verano
+7- Se agrega la etiqueta meta description en modelos.html:
+Nuestros mejores modelos y conjuntos
+8- Se coloco etiquetas meta keywords en faq.html:
+faq, compras, envios, pagos, devoluciones
+9- Se agrego etiqueta meta description a faq.html:
+Las preguntas más frecuentes de nuestros usuarios
+10- Se agrego etiqueta meta keywords en contacto.html:
+contacto, mail, locales, ubicacion
+11- Se agrega etiqueta meta description en contacto.html:
+Contactate con nosotros y conoce nuestra sucursal
