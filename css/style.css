@@ -169,13 +169,14 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 10px; }
   .main-nosotros img {
-    width: 400px; } }
+    width: -webkit-fill-avaible;
+    height: -webkit-fill-avaible; } }
 
-@media (max-width: 680px) {
+@media (max-width: 850px) and (max-width: 680px) {
   .header {
     flex-direction: column; } }
 
-@media (max-width: 680px) {
+@media (max-width: 850px) and (max-width: 680px) {
   .header {
     flex-direction: column; }
   .header img {
@@ -199,7 +200,7 @@ h1 {
   .footer ul {
     width: 182px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 850px) and (max-width: 320px) {
   .header {
     flex-direction: column; }
   .header img {

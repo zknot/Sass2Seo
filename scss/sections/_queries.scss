@@ -10,8 +10,9 @@
       grid-template-columns: repeat(2, 1fr);
       row-gap: 10px; }
     .main-nosotros img {
-      width: 400px; } }
-  
+      width: -webkit-fill-avaible;
+      height: -webkit-fill-avaible;}
+
   @media (max-width: 680px) {
     .header {
       flex-direction: column; } }
@@ -65,4 +66,4 @@
       width: 182px; }
     .vestidosIndex img {
       width: 250px; } }
-  
+   }
