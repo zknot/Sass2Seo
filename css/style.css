@@ -19,12 +19,12 @@ font-family: 'PT Sans', sans-serif;*/
   flex-direction: column;
   margin: 0 auto; }
 
-h1, .main-index .card .card-text, .main-index, .main-nosotros, .main-contacto, .main-modelos, .main-faq, .main-nosotros .card .card-text, .main-modelos .card-text {
+h1, .main-index .card .card-text, .main-index, .main-nosotros, .main-contacto, .main-modelos, .main-faq, .main-nosotros .card .card-text, .main-faq .main-modelos .card-text {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.main-index .card .row img, .main-nosotros .card .row img, .main-modelos .card .row img {
+.main-index .card .row img, .main-nosotros .card .row img, .main-faq .main-modelos .card .row img {
   width: 400px;
   margin: 10px; }
 
@@ -124,20 +124,24 @@ h1 {
     color: #FFE8D4; }
 
 /* Body FAQ */
-/* Main-Modelos */
-.main-modelos .card {
-  background-color: #E5A4CB;
-  padding: 1rem;
-  margin: 2rem; }
-  .main-modelos .card .row {
-    gap: 5px 5px;
-    margin: 5px; }
-  .main-modelos .card h5 {
-    color: #7F055F; }
-
-.main-modelos .card-text {
-  text-align: left;
-  color: #FFE8D4; }
+.main-faq {
+  /* Main-Modelos */ }
+  .main-faq .container .col {
+    margin: 1rem; }
+    .main-faq .container .col strong {
+      color: #7F055F; }
+  .main-faq .main-modelos .card {
+    background-color: #E5A4CB;
+    padding: 1rem;
+    margin: 2rem; }
+    .main-faq .main-modelos .card .row {
+      gap: 5px 5px;
+      margin: 5px; }
+    .main-faq .main-modelos .card h5 {
+      color: #7F055F; }
+  .main-faq .main-modelos .card-text {
+    text-align: left;
+    color: #FFE8D4; }
 
 h1 {
   font-family: 'Nunito';

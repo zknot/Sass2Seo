@@ -46,6 +46,14 @@
     p{
         @extend %faqParrafo;
     }
+    .container{
+        .col{
+            margin: 1rem;
+        
+        strong{
+            color: $backColor;
+            }
+    }
 }
 
 /* Main-Modelos */
@@ -73,3 +81,5 @@
 
     }    
     }
+}
+
